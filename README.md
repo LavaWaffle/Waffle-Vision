@@ -12,12 +12,18 @@ $: python3 -m venv env
 $: env\Scripts\activate.bat
 # Install dependencies
 $: pip install -r requirements.txt
+# Run the program
+$: python main.py
 ```
+3. Click "File" -> "Open" and then navigate to the ```example_file``` folder and click on ```example_input.xlsx```
 
 # Program features
 - Displays a robot's movement through matplotlib
 - Save the robot's movement to a png file
 
 # Program screen shots
-![](https://i.imgur.com/XqQZQZq.png)
-ADD IMAGES THROUGH GITHUB
+### UI
+![](https://github.com/LavaWaffle/Waffle-Vision/blob/main/example_file/example_ui.png?raw=true)
+
+### PNG Output
+![](https://github.com/LavaWaffle/Waffle-Vision/blob/main/example_file/example_output_ss.png?raw=true)
